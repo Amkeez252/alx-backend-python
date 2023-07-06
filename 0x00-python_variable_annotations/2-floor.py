@@ -1,15 +1,17 @@
 #!/usr/bin/python3
 """Basic annotations - floor."""
 
+import math
 
-def floor(a: float) -> int:
+
+def floor(n: float) -> int:
     """
     Floor a float number.
 
     Args:
-        a (float): float number to floor
+        n (float): float number to floor
 
     Returns:
-        int: the floor number.
+        int: the floor number
     """
-    return int(a)
+    return math.floor(n)
