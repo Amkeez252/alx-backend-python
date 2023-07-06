@@ -1,9 +1,15 @@
-#!/usr/bin/env python3
-'''Task 2 Basic annotations - floor
-'''
+#!/usr/bin/python3
+"""Basic annotations - floor."""
 
 
 def floor(a: float) -> int:
-    '''Computes the floor of a floating-point number.
-    '''
+    """
+    Floor a float number.
+
+    Args:
+        a (float): float number to floor
+
+    Returns:
+        int: the floor number
+    """
     return int(a)
