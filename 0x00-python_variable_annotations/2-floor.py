@@ -10,6 +10,6 @@ def floor(a: float) -> int:
         a (float): float number to floor
 
     Returns:
-        int: the floor number
+        int: the floor number.
     """
     return int(a)
