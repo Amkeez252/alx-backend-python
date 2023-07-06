@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
-'''Task 1 Basic annotations - concat
-'''
+"""Basic annotations - concat"""
 
 
 def concat(str1: str, str2: str) -> str:
-    '''Concatenates two strings.
-    '''
+    """Concatenates two strings.
+
+    Args:
+        str1 (str): first string to concatenate
+        str2 (str): second string to concatenate
+
+    Returns:
+        str: concatenated string
+    """
     return str1 + str2
